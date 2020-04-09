@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "outDir": "./build/",
+    "sourceMap": true,
+    "module": "ESNext",
+    "target": "es6",
+    "jsx": "react",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*",
+    "gatsby-config.js",
+    "gatsby-node.js",
+    "gatsby-browser.js",
+    "gatsby-ssr.js"
+  ],
+  "exclude": ["node_modules", "**/*.test.{ts,tsx}"]
+}
